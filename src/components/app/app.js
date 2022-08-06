@@ -8,11 +8,11 @@ import "./app.css";
 
 function App() {
   const data = [
-    { name: "Степан Бандера", salary: "2000$", increase: true },
-    { name: "Михайло Крашко", salary: "900$", increase: false },
-    { name: "Олексій Коваль", salary: "1800$", increase: true },
-    { name: "Павло Ткач", salary: "800$", increase: false },
-    { name: "Ігор Петренко", salary: "1100$", increase: false },
+    { name: "Степан Бандера", salary: "2000$", increase: true, id: 1 },
+    { name: "Михайло Крашко", salary: "900$", increase: false, id: 2 },
+    { name: "Олексій Коваль", salary: "1800$", increase: true, id: 3 },
+    { name: "Павло Ткач", salary: "800$", increase: false, id: 4 },
+    { name: "Ігор Петренко", salary: "1100$", increase: false, id: 5 },
   ];
 
   return (
